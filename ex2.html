@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+		<!--
+		input type="button" = 버튼 생성
+		type에 따라 입력 박스를 넣을 수 있고 여러가지 만들 수 있다
+		value - 버튼 위 글자
+		onclick - 클릭 이벤트 발생
+		alert('asdsdf') - 경고창 출력
+
+		onclick - 에는 무조건 자바스크립트가 와야한다
+		-->
+		<input type="button" value="hi" onclick="alert('hi')">
+
+		<!--
+		onchange - 값 변경 시 호출
+		-->
+		<input type="text" onchange="alert('changed')">
+
+		<!--
+		onkeydown - 키 누를 때 호출
+		-->
+		<input type="text" onkeydown="alert('key down')">
+	</body>
+</html>
